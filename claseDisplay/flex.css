@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{   
+    font-size: 1.6rem;
+}
+
+.container{
+    border: .3rem solid black;
+    display: flex;
+    flex-wrap: wrap;
+    /* height: 50vh; */
+
+    /* Alinea los elementos al centro del contenedor de forma vertical*/
+    /* align-items: center;     */
+    /* Alinea los elementos al final del contenedor */
+    /* align-items: flex-end; */
+    /* Alinea los elementos al inicio del contenedor */
+    /* align-items: flex-start; */
+    /* Estira los elementos al 100% del contenedor padre */
+    /* align-items: stretch; */
+    /* Toma solo el espacio del contenido */
+    /* align-items: baseline; */
+    
+    
+}
+
+.box{
+    /* width: 10rem; */
+    height: 10rem;
+    flex-basis: 10rem;
+    flex-grow: 1;
+}
+
+.box1{
+    background-color: blue;
+    /* Indica que el elemento ocupara el espacio sobrante */
+    flex-grow: 1;    
+}
+.box2{
+    background-color: brown;
+    flex-grow: 1;
+}
+.box3{
+    background-color: darkgreen;
+    
+}
+.box4{
+    background-color: darkmagenta;
+    
+}
+.box5{
+    background-color: chartreuse;
+    
+}
+.box6{
+    background-color:cornflowerblue;
+    
+}

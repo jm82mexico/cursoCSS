@@ -1,0 +1,53 @@
+header{
+    background-color: peru;
+}
+aside{
+    background-color: royalblue;
+}
+
+.base{
+    width: 100%;
+    background-color:yellowgreen;
+    display: inline-block;
+}
+.container{
+    height: 100vh;
+    width: 20%;
+    background-color: seagreen;
+}
+
+.element{
+ display: block;
+}
+
+.element-block{
+    width: 70%;
+    height: 150px;
+    margin: 15px auto;
+    background-color: blue;
+    border-radius: 15px;
+
+}
+
+.menu ul{
+    align-content:flex-end;
+}
+
+.menu li{
+    display: inline-block;
+    list-style: none;
+    font-size: 20px;
+    margin: 20px  0;
+    background-color: grey;
+    padding: 10px;
+    border-radius: 10px;   
+    
+}
+
+
+
+.principal{
+    height: 100vh;
+    width: 20%;
+    background-color: violet;
+}
