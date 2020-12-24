@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    /* Ocupara el 100 en largo y ancho */
+    width: 100vw;
+    height: 100vh;
+    background-color: blueviolet;
+}
+
+section{
+    /* Se utilizan para delimitar el crecimiento de los contenedores */
+    width: 80%;
+    min-width: 320px;
+    max-width: 500px;
+    min-height: 500px;
+    margin: 0 auto;
+    background-color: red;
+}
