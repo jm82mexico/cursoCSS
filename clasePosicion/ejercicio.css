@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+section{
+    width: 500px;
+    margin: 0 auto;
+    font-size: 1.6rem;
+    
+}
+ .titulo{
+     width: 70%;
+     color: yellow;
+     padding: 8px;
+     background-color:blue;
+     margin: 0 auto;
+     position: relative;
+     top: 17px;
+     border-radius: 5px;
+     text-align: center;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+.contenido{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+}
+
+figure img{
+    width: 70%;
+    height: 50%;
+    margin: 0 auto;
+    padding-left: 25%;
+}
+
+.mensaje{
+    padding-top: 15px;
+}
